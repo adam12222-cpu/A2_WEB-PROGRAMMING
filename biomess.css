@@ -1,0 +1,39 @@
+.biomes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.biome-card {
+    background: #273B09;
+    border-radius: 20px;
+    padding: 1.5rem;
+    border: 1px solid #8B5A2B;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.biome-card:hover {
+    background: #8B5A2B;
+}
+
+.biome-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.biome-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.biome-card p {
+    font-size: 0.9rem;
+}
+
+.desc {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}

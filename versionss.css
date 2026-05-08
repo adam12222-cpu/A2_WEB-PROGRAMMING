@@ -1,0 +1,64 @@
+.update-thingy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.upd-canvas {
+    background: #273B09;
+    border-radius: 20px;
+    padding: 1.5rem;
+    border: 1px solid #8B5A2B;
+    transition: 0.3s;
+}
+
+.upd-canvas:hover {
+    background: #8B5A2B;
+}
+
+.upd-canvas img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.boogie {
+    background: #002400;
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    color: #DBD2E0;
+}
+.boogie a {
+    text-decoration: none;
+    color: #DBD2E0;
+    padding: 0.5rem 0;
+    transition: 0.5s;
+}
+
+.boogie a:hover {
+    color: blueviolet;
+    padding:  0.5rem 0.6rem;
+}
+
+.upd-canvas h3 {
+    margin-bottom: 0.5rem;
+}
+
+.upd-canvas p {
+    font-size: 0.9rem;
+}
+
+.boogie a{
+    text-decoration: none;
+}
+
+.desc {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
